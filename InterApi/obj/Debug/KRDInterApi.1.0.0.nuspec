@@ -5,10 +5,10 @@
     <version>1.0.0</version>
     <title>Pacote para comunicacao com a API do Banco Inter PJ</title>
     <authors>dkraide</authors>
-    <readme>README.md</readme>
     <projectUrl>https://github.com/dkraide/InterAPI</projectUrl>
     <description>Biblioteca em C# para comunicacao com a API do Banco Inter</description>
     <tags>API C# BANCO INTER BOLETO PIX</tags>
+    <readme>README.md</readme>
     <repository type="git" url="https://github.com/dkraide/InterAPI" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">
