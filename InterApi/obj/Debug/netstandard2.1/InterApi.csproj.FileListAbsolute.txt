@@ -1,0 +1,10 @@
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\bin\Debug\netstandard2.1\InterApi.deps.json
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\bin\Debug\netstandard2.1\InterApi.dll
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\bin\Debug\netstandard2.1\InterApi.pdb
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.csproj.AssemblyReference.cache
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.AssemblyInfoInputs.cache
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.AssemblyInfo.cs
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.dll
+C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\obj\Debug\netstandard2.1\InterApi.pdb

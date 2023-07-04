@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>KRDInterApi</PackageId>
+    <Title>Pacote para comunicacao com a API do Banco Inter PJ</Title>
+    <Authors>dkraide</Authors>
+    <Company>krdsystem</Company>
+    <Description>Biblioteca em C# para comunicacao com a API do Banco Inter</Description>
+    <PackageProjectUrl>https://github.com/dkraide/InterAPI</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/dkraide/InterAPI</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>API;C#;BANCO;INTER;BOLETO;PIX</PackageTags>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="105.0.0" />
+  </ItemGroup>
+
+</Project>

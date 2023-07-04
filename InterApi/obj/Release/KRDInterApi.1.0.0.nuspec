@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>KRDInterApi</id>
+    <version>1.0.0</version>
+    <title>Pacote para comunicacao com a API do Banco Inter PJ</title>
+    <authors>dkraide</authors>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/dkraide/InterAPI</projectUrl>
+    <description>Biblioteca em C# para comunicacao com a API do Banco Inter</description>
+    <tags>API C# BANCO INTER BOLETO PIX</tags>
+    <repository type="git" url="https://github.com/dkraide/InterAPI" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="105.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Pichau\Documents\GitHub\InterAPI\InterApi\bin\Release\netstandard2.1\InterApi.dll" target="lib\netstandard2.1\InterApi.dll" />
+    <file src="C:\Users\Pichau\Documents\GitHub\InterAPI\README.md" target="\README.md" />
+  </files>
+</package>
