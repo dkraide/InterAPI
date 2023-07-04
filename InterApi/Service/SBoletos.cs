@@ -34,7 +34,7 @@ namespace InterAPI.Service
             client.ClientCertificates = new X509CertificateCollection() { ConstApi.certificate2 };
             var restrequest = new RestRequest(Method.GET);
             restrequest.AddHeader("Accept", "application/json");
-            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token}");
+            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token.Access_token}");
             if (!string.IsNullOrEmpty(contaCorrente))
                 restrequest.AddHeader("x-conta-corrente", contaCorrente);
 
@@ -97,7 +97,7 @@ namespace InterAPI.Service
            
             var restrequest = new RestRequest(Method.GET);
             restrequest.AddHeader("Accept", "application/json");
-            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token}");
+            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token.Access_token}");
             if (!string.IsNullOrEmpty(contaCorrente))
                 restrequest.AddHeader("x-conta-corrente", contaCorrente);
 
@@ -124,7 +124,7 @@ namespace InterAPI.Service
             client.ClientCertificates = new X509CertificateCollection() { ConstApi.certificate2 };
             var restrequest = new RestRequest(Method.GET);
             restrequest.AddHeader("Accept", "application/json");
-            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token}");
+            restrequest.AddHeader("Authorization", $"Bearer {ConstApi.Token.Access_token}");
             if (!string.IsNullOrEmpty(contaCorrente))
                 restrequest.AddHeader("x-conta-corrente", contaCorrente);
 
@@ -197,7 +197,7 @@ namespace InterAPI.Service
             client.ClientCertificates = new X509CertificateCollection() { ConstApi.certificate2 };
             var request = new RestRequest(Method.GET);
             request.AddHeader("Accept", "application/json");
-            request.AddHeader("Authorization", $"Bearer {ConstApi.Token}");
+            request.AddHeader("Authorization", $"Bearer {ConstApi.Token.Access_token}");
             if (!string.IsNullOrEmpty(contaCorrente))
                 request.AddHeader("x-conta-corrente", contaCorrente);
             IRestResponse response = client.Execute(request);
@@ -229,7 +229,7 @@ namespace InterAPI.Service
             client.ClientCertificates = new X509CertificateCollection() { ConstApi.certificate2 };
             var request = new RestRequest(Method.POST);
             request.AddHeader("Accept", "application/json");
-            request.AddHeader("Authorization", $"Bearer {ConstApi.Token}");
+            request.AddHeader("Authorization", $"Bearer {ConstApi.Token.Access_token}");
 
             request.AddParameter("application/json",
                             new {motivoCancelamento = motivo},
